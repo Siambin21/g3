@@ -125,6 +125,23 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.facts-card-container{
+display: flex;
+        justify-content: space-around;
+    margin: 20px auto;}
+
+.facts-card-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+width: 241.831px;
+height: 241.831px;
+
+
+
+} 
+.facts-title{
+    text-align: center;
+}
 /* for mobile */
 @media screen and (max-width:425px) {
    
