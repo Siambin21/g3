@@ -89,13 +89,6 @@ line-height: 26px; /* 162.5% */
     gap: 10px;
 }
 
-@media screen and (max-width:425px) {
-   
-
-    #b-img{
-    width: 100vw;
-}
-}
 .teams-title{
     color: var(--dark-03, #727272);
 font-family: Work Sans;
@@ -119,4 +112,12 @@ font-size: 45px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+@media screen and (max-width:425px) {
+   
+
+    #b-img{
+    width: 100vw;
+}
 }
