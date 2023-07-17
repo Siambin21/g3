@@ -13,7 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-border: 1px solid red;
+
 width: 95vw;
 margin: 0 auto;}
 nav > ul{
@@ -57,10 +57,13 @@ text-align: center;
  
 
 }
+.sec-p{
+    text-align: center;
+}
 .btn-h{
     display: flex;
     justify-content: center;
-    border: 2px solid firebrick;
+  
     width: 95vw;
     margin: 0 auto;
 }
@@ -136,7 +139,7 @@ display: flex;
     border-radius: 8px;
 border: 1px solid #FF900E;
 width: 25vh;
-height: 25vh;
+height: 30vh;
 padding: 10px 10px 10px 10px;
 
 
@@ -145,7 +148,7 @@ padding: 10px 10px 10px 10px;
 .c{
   margin-left: 3.5vw;
   margin-bottom: 10px;
-  
+
 }
 
 .facts-title{
@@ -164,6 +167,18 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 
+}
+.card-p{
+    margin-left: 15px;
+}
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px;
+}
+
+.section-title{
+    text-align: center;
 }
 /* for mobile */
 @media screen and (max-width:425px) {
@@ -184,6 +199,20 @@ margin: 50px auto;
     flex-direction: column;
    
 }
+.facts-card-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.facts-card-container .card{
+    margin-bottom: 30px;
+}
+.sponsors-img-container{
+    display: flex;
+    flex-direction: column;
+  gap: 30px;
+}
+
 
 }
 /* for tablet */
